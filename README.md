@@ -1,4 +1,4 @@
-<img src="https://cdn.rawgit.com/oh-my-fish/oh-my-fish/e4f1c2e0219a17e2c748b824004c8d0b38055c16/docs/logo.svg" align="left" width="144px" height="144px"/>
+#<img src="https://cdn.rawgit.com/oh-my-fish/oh-my-fish/e4f1c2e0219a17e2c748b824004c8d0b38055c16/docs/logo.svg" align="left" width="144px" height="144px"/>
 
 #### last-working-dir
 > A plugin for [Oh My Fish][omf-link].
@@ -15,14 +15,6 @@
 ```fish
 $ omf install last-working-dir
 ```
-
-
-## Usage
-
-```fish
-$ last-working-dir
-```
-
 
 # License
 
