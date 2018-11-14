@@ -6,4 +6,7 @@
 # * $dependencies  package dependencies
 
 cd $LAST_WORKING_DIR
-__onpwd
+function __onpwd --on-variable PWD
+    set --universal LAST_WORKING_DIR $PWD
+end
+# __onpwd
