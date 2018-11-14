@@ -5,7 +5,10 @@
 # * $path          package path
 # * $dependencies  package dependencies
 
-cd $LAST_WORKING_DIR
+if status --is-interactive
+    cd $LAST_WORKING_DIR
+end
+
 function __onpwd --on-variable PWD
     set --universal LAST_WORKING_DIR $PWD
 end
