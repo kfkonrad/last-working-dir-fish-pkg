@@ -5,7 +5,7 @@
 # * $path          package path
 # * $dependencies  package dependencies
 
-if status --is-interactive
+if status --is-interactive; and test -d $LAST_WORKING_DIR
     cd $LAST_WORKING_DIR
 end
 
